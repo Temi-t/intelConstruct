@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/intelConstruct/static/css/main.5c37b395.css",
-    "main.js": "/intelConstruct/static/js/main.fa31c64f.js",
+    "main.js": "/intelConstruct/static/js/main.4647d7aa.js",
     "static/js/787.6b85346e.chunk.js": "/intelConstruct/static/js/787.6b85346e.chunk.js",
     "index.html": "/intelConstruct/index.html",
     "main.5c37b395.css.map": "/intelConstruct/static/css/main.5c37b395.css.map",
-    "main.fa31c64f.js.map": "/intelConstruct/static/js/main.fa31c64f.js.map",
+    "main.4647d7aa.js.map": "/intelConstruct/static/js/main.4647d7aa.js.map",
     "787.6b85346e.chunk.js.map": "/intelConstruct/static/js/787.6b85346e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c37b395.css",
-    "static/js/main.fa31c64f.js"
+    "static/js/main.4647d7aa.js"
   ]
 }
