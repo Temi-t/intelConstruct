@@ -1,2 +1,0 @@
-# intelConstruct
-React project
