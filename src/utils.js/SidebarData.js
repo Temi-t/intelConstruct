@@ -8,7 +8,7 @@ import {
 export const SidebarData = [
   {
     title: "Home",
-    path: "/",
+    path: "/intelConstruct",
     icon: <FontAwesomeIcon icon={solid("house")} size="2x" color="white" />,
   },
   {

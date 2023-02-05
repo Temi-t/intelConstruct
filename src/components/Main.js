@@ -14,7 +14,7 @@ export default function Main() {
     <MainS>
       <Nav />
       <Routes>
-        <Route path="/" element={<Account />} />
+        <Route path="/intelConstruct" element={<Account />} />
       </Routes>
       <Routes>
         <Route path="/project" element={<Project />} />
