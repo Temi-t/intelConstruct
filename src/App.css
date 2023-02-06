@@ -14,3 +14,16 @@ html {
 }
 @media only screen and (min-width: 1025px) {
 }
+
+/* progress {
+  color: lightblue;
+}
+progress::-moz-progress-bar {
+  background: lightblue;
+} */
+/* progress::-webkit-progress-value {
+  background: orange;
+} */
+/* progress::-webkit-progress-bar {
+  background: yellowgreen;
+} */

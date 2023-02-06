@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
+import ProgressBar from "react-bootstrap/ProgressBar";
 import {
   AccDetailsS,
   CompanyCheckbox,
@@ -7,7 +8,6 @@ import {
   Label,
   //Accordion,
   //   CompanyDetails,
-  ProgressBar,
   CheckedLabel,
 } from "./styles/AccDetails.styled";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -78,10 +78,6 @@ export default function AccDetails() {
 
   return (
     <AccDetailsS>
-      {/* {details.map((item, i) => (
-        <CompanyDetails key={i} {...item} />
-      ))} */}
-
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
@@ -95,13 +91,14 @@ export default function AccDetails() {
             </div>
           </Accordion.Header>
           <Accordion.Body style={accordionBg}>
-            <ProgressBar id="file" value="32" max="100">
+            {/* <ProgressBar id="file" value="32" max="100">
               {" "}
               32%{" "}
-            </ProgressBar>
+            </ProgressBar> */}
+            <ProgressBar variant="warning" now={8} style={{ height: "8px" }} />
             <label htmlFor="file" style={accordionLabel}>
               {" "}
-              32% complete
+              8% complete
             </label>
 
             {choices.map((choice, i) => (

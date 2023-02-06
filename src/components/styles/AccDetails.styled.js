@@ -45,7 +45,10 @@ export const CompanyDetailsStyle = styled.div`
 export const ProgressBar = styled.progress`
   width: 100%;
   height: 20px;
-  //color: orange;
+  // background-color: orange;
+  // &::-webkit-progress-value {
+  //   background: orange;
+  // }
 `;
 export const Label = styled.label`
   padding-top: 19px;

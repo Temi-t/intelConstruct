@@ -2,7 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import SideBar from "./components/SideBar";
 import Main from "./components/Main";
-import ThemeProvider from "react-bootstrap/ThemeProvider";
+//import ThemeProvider from "react-bootstrap/ThemeProvider";
 function App() {
   return (
     // <ThemeProvider

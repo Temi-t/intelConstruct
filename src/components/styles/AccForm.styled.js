@@ -13,8 +13,7 @@ export const AccFormS = styled.div`
 
   @media (max-width: 600px) {
     width: 100%;
-    margin: 30px auto;
-    margin-right: 50px;
+    margin: 50px auto;
     flex: 1;
   }
   @media (min-width: 601px) and (max-width: 1091px) {
@@ -61,7 +60,6 @@ export const ButtonContainer = styled.div`
   align-items: flex-end;
   height: 70px;
   width: 100%;
-  background: "pink";
 `;
 
 /*
