@@ -3,10 +3,9 @@ import styled from "styled-components";
 export const AccDetailsS = styled.div`
   height: 100%;
   width: 19rem;
-  //   width: 40%;
-  //   padding: 3%;
   padding-top: 0;
   @media (max-width: 600px) {
+    width: 100%;
   }
   @media (min-width: 601px) and (max-width: 1091px) {
     margin: 20px auto;
@@ -86,6 +85,7 @@ export const CompanyCheckbox = styled.input`
   top: 1.2rem;
   scale: 1.7;
   margin-right: 0.8rem;
+  // accent-color: #276fb4;
 `;
 export const Check = styled.input`
   top: 1.2rem;

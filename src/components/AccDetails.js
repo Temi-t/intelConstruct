@@ -6,8 +6,6 @@ import {
   CompanyCheckbox,
   Check,
   Label,
-  //Accordion,
-  //   CompanyDetails,
   CheckedLabel,
 } from "./styles/AccDetails.styled";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -14,6 +14,9 @@ export const SideBarS = styled.div`
   align-items: flex-start;
   padding: 10px 0px 33px;
   gap: 20px;
+  &:hover {
+    cursor: pointer;
+  }
 
   @media (max-width: 600px) {
     display: none;

@@ -1,4 +1,5 @@
 import React from "react";
+import "../index.css";
 //import { AccountS } from "./styles/Account.styled.js";
 import AccForm from "./AccForm";
 import AccDetails from "./AccDetails";
@@ -27,15 +28,7 @@ export default function Account() {
     alignContent: "flex-start",
   };
   return (
-    <Container
-      fluid
-      style={{
-        padding: "30px",
-        paddingLeft: "70px",
-        paddingRight: "70px",
-        background: "#F5F5F5",
-      }}
-    >
+    <Container fluid className="main-container">
       <h2 style={H2}>Account</h2>
       {/* <FontAwesomeIcon icon={solid("user-secret")} size="10x" /> */}
       {/* <FontAwesomeIcon icon={regular("coffee")} /> */}
